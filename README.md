@@ -1,5 +1,3 @@
-1)HTML Dosyasının Oluşturulması: Yeni bir HTML dosyası oluşturun ve dosyayı sinif_tablosu.html olarak kaydedin.
-2)Temel HTML Yapısı: HTML dosyasının temel yapısını oluşturun. <html>, <head>, <body>, <title> ve <style> etiketlerini doğru bir şekilde kullanın.
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,10 +6,23 @@
         <title>HTML Title Örneği</title>
     </head>
     <body>
-    3)Sayfa Başlığı: Sayfanın başlığı olarak "Sınıf Tablosu" ifadesini kullanın ve <h1> etiketi ile sayfa başlığını belirleyin.
-    <h1>Sınıf Tablosu</h1>
-    4)Tablonun Oluşturulması: <table> etiketi ile bir tablo oluşturun. Tabloya başlık (header) satırı ekleyin ve dört sütun başlığı tanımlayın: "Öğrenci Numarası", "Adı", "Soyadı" ve "Notu".
-<table>
+        <h1>Sınıf Tablosu</h1>
+        <style>
+
+ th {
+                background-color: #2dd6d9;
+                padding: 17px;
+                border: 2px solid black;
+                text-align: center;
+            }
+            
+ td {
+                padding: 17px;
+                border: 2px solid black;
+                text-align: center;
+            }
+             </style>
+        <table>
                 <tr>
             <table style="width:100%; border: 2px solid black;">
             <tr>
@@ -21,7 +32,6 @@
                 <th>Notu</th>
                 <th>Doğum Tarihi</th>    
             </tr>
-            5)Öğrenci Bilgileri: Tabloya en az 5 öğrenci ekleyin. Her öğrenci için "Öğrenci Numarası", "Adı", "Soyadı" ve "Notu" bilgilerini doldurun.
             <tr>
                 <td>07071907</td>
                 <td>Cemre</td>
@@ -78,26 +88,7 @@
                 <td>78</td>
                 <td>17.07.1999</td>
              </tr>
-             6)Tablo Stilinin Belirlenmesi: Tabloya bazı temel stiller uygulayın:
-Tablonun genişliğini yüzde 100 yapın.
-Hücrelerin (th, td) kenarlıklarını belirleyin ve padding (iç boşluk) ekleyin.
-Tablo başlık satırının (th) arka plan rengini belirleyin.
-<style>
-            /* th için arka plan rengi,padding,border,text-allignment belirleme */
-            th {
-                background-color: #2dd6d9;
-                padding: 17px;
-                border: 2px solid black;
-                text-align: center;
-            }
-            /* td için padding,border,text-allignment belirleme */
-            td {
-                padding: 17px;
-                border: 2px solid black;
-                text-align: center;
-            }
-             </style>
-        <table>
-                <tr>
-            <table style="width:100%; border: 2px solid black;">
-            7) 7 ve 8. soruda istenenler 4 ve 5. soruda ekli durumdadır.
+        </table>
+       
+    </body>
+    </html>

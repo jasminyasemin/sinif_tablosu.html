@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML Title Örneği</title>
+        <title>Sınıf Tablosu</title>
     </head>
     <body>
         <h1>Sınıf Tablosu</h1>
@@ -89,6 +89,5 @@
                 <td>17.07.1999</td>
              </tr>
         </table>
-       
-    </body>
+        </body>
     </html>
